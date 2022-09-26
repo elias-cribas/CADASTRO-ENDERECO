@@ -1,0 +1,38 @@
+/* https:flatuicolors.com/palette/de*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap');
+:root {
+    --ascent-color: #111b1f;
+    --background-color: #17252a;
+    --font-color: #d63e3e;
+    --modal-color: #2a3d44;
+    --sub-color: #800303;
+    --button-color: #101a1d;
+}
+
+body {
+    font-family: "Press Start 2P", cursive;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--font-color);
+}
+
+select, input{
+    position: relative;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    font-size: 20px;
+    border: 0;
+    color: var(--font-color);
+    background-color: var(--modal-color);
+    border-bottom: 5px solid var(--font-color);
+    margin: auto;
+    /* width: 100% */
+}
